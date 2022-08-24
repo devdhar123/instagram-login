@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 247, 246);
+    align-items: center;
+    align-items: center;
+}  
+.insta{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid rgb(236, 234, 234);
+}  
+.image{
+    margin-top: 40px;
+}
+.email{
+    width: 80%;
+    height: 35px;
+    margin-top: 40px;
+    background-color: rgb(245, 247, 246);
+    border: 1px solid rgb(236, 234, 234);
+}
+.psd{
+    width: 80%;
+    height: 35px;
+    margin-top: 5px;
+    background-color: rgb(245, 247, 246);
+    border: 1px solid rgb(236, 234, 234);
+}
+.btn{
+    width: 80%;
+    height: 30px;
+    background-color: #0095f6;
+    opacity: 0.4;
+    border: none;
+    color: white;
+}
+span{
+    margin-top: 25px;
+    color: rgb(155, 151, 151);
+}
+.facebook{
+    align-items: center;
+    height: 30px;
+    margin-top: 25px;
+}
+.facebook img{
+    height: 15px;
+}
+.facebook a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #385185;
+    font-size: 16px;
+}
+.forgot{
+    margin-top: 18px;
+    color: #00376b;
+    text-decoration: none;
+}
+.sign{
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(70, 66, 66);
+    background-color: white;
+    border: 1px solid rgb(236, 234, 234);
+}
+.sign a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #0095f6;
+}
+.get{
+    margin-top: 20px;
+    color: rgb(70, 66, 66);
+}
+.apps{
+    width: 350px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.apps img{
+    height: 40px;
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        justify-content: center;
+    }
+    .insta{
+        width: 80%;
+    }
+    .sign{
+        width: 80%;
+    }
+}
+        
